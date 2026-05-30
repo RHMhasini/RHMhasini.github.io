@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasini Herath - Data Science Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <canvas id="canvas-background"></canvas>
+    
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">Hasini Herath</h1>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Hi, I'm Hasini Herath</h1>
+                <p class="subtitle">Undergraduate in Data Science | Exploring the Power of Data</p>
+                <p class="description">BSc (Hons) in Information Technology, Specializing in Data Science</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Hasini Herath" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I'm a motivated undergraduate pursuing a BSc (Hons) in Information Technology with a specialization 
+                in Data Science at SLIIT. I'm deeply passionate about statistics and uncovering insights hidden within data. 
+                What excites me most is transforming raw data into actionable intelligence through statistical analysis and 
+                machine learning. I'm particularly interested in predictive modeling and how data-driven approaches can solve 
+                real-world business problems. As a fast learner with strong analytical thinking, I'm seeking opportunities 
+                to apply my technical knowledge in a professional data science environment.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="projects-carousel">
+            <button class="carousel-btn prev-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    
+                    <div class="carousel-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project1.jpg" alt="Fraud Detection System">
+                            <div class="project-overlay">
+                                <h3>Fraud Detection System</h3>
+                                <p>Real-Time ML Platform</p>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3>Fraud Detection System</h3>
+                                <span class="project-badge">Featured</span>
+                            </div>
+                            <p class="project-description">
+                                A real-time fraud detection solution for online shopping using ensemble of 
+                                Random Forest and XGBoost models with FastAPI backend and Streamlit dashboard.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>XGBoost</span>
+                                <span>FastAPI</span>
+                                <span>Random Forest</span>
+                            </div>
+                            <a href="https://github.com/RHMhasini/Fraud-Detection" target="_blank" class="project-link-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project2.jpg" alt="Flight Delay Predictor">
+                            <div class="project-overlay">
+                                <h3>Flight Delay Predictor</h3>
+                                <p>Web-Based ML Application</p>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3>Flight Delay Predictor</h3>
+                                <span class="project-badge">ML App</span>
+                            </div>
+                            <p class="project-description">
+                                Machine learning-powered application predicting flight delays using historical 
+                                US flight data with XGBoost model and interactive Streamlit interface.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>XGBoost</span>
+                                <span>Streamlit</span>
+                                <span>Pandas</span>
+                            </div>
+                            <a href="https://github.com/RHMhasini/flight-delay-predictor" target="_blank" class="project-link-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project3.jpg" alt="Pneumonia Detection">
+                            <div class="project-overlay">
+                                <h3>Pneumonia Detection</h3>
+                                <p>CNN Learning Project</p>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3>Pneumonia Detection</h3>
+                                <span class="project-badge">Deep Learning</span>
+                            </div>
+                            <p class="project-description">
+                                Deep learning CNN project for pneumonia detection from chest X-rays using 
+                                PyTorch, implementing custom CNN and ResNet18 for performance comparison.
+                            </p>
+                            <div class="tech-tags">
+                                <span>PyTorch</span>
+                                <span>CNN</span>
+                                <span>ResNet18</span>
+                                <span>Transfer Learning</span>
+                            </div>
+                            <a href="https://github.com/RHMhasini/pneumonia-detection-deep-learning" target="_blank" class="project-link-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-project-card">
+                        <div class="project-image-wrapper">
+                            <img src="images/project4.jpg" alt="Superstore Dashboard">
+                            <div class="project-overlay">
+                                <h3>Superstore Sales Dashboard</h3>
+                                <p>Power BI Analytics</p>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-header">
+                                <h3>Superstore Sales Dashboard</h3>
+                                <span class="project-badge">BI Analytics</span>
+                            </div>
+                            <p class="project-description">
+                                Comprehensive Power BI dashboard analyzing sales, profit trends, and customer 
+                                behavior with ETL pipeline and advanced DAX measures for KPIs.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>ETL</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <a href="https://github.com/RHMhasini/superstore-sales-dashboard" target="_blank" class="project-link-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <button class="carousel-btn next-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <div class="carousel-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </div>
+</section>
+
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <p>Python, R, Java, JavaScript, C++</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <p>PyTorch, TensorFlow, scikit-learn, XGBoost</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <p>Pandas, NumPy, Matplotlib, Seaborn</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <p>Power BI, Git, Jupyter, VS Code, Streamlit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="cert-intro">Click on any certification to view the credential</p>
+            
+            <div class="cert-categories">
+                <button class="cert-btn active" data-category="ml">Machine Learning</button>
+                <button class="cert-btn" data-category="azure">Microsoft Azure</button>
+                <button class="cert-btn" data-category="aws">Amazon AWS</button>
+            </div>
+            
+            <div class="cert-content">
+                <div class="cert-category-content active" id="ml">
+                    <a href="certificates/ml-cert.pdf" target="_blank" class="cert-card">
+                        <div class="cert-card-content">
+                            <h3>Supervised Machine Learning</h3>
+                            <p>Regression and Classification</p>
+                            <p>DeepLearning.AI & Stanford University</p>
+                            <p class="cert-instructor">Instructor: Andrew Ng</p>
+                            <span class="cert-view-badge">Click to View Certificate</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="cert-category-content" id="azure">
+                    <div class="cert-grid">
+                        <a href="certificates/azure-1.pdf" target="_blank" class="cert-item">
+                            <h4>Azure Identity, Access & Security</h4>
+                        </a>
+                        <a href="certificates/azure-2.pdf" target="_blank" class="cert-item">
+                            <h4>Relational Database Services</h4>
+                        </a>
+                        <a href="certificates/azure-3.pdf" target="_blank" class="cert-item">
+                            <h4>Application Scalability</h4>
+                        </a>
+                        <a href="certificates/azure-4.pdf" target="_blank" class="cert-item">
+                            <h4>Virtual Machine Availability</h4>
+                        </a>
+                        <a href="certificates/azure-5.pdf" target="_blank" class="cert-item">
+                            <h4>Azure Blob Storage</h4>
+                        </a>
+                        <a href="certificates/azure-6.pdf" target="_blank" class="cert-item">
+                            <h4>Virtual Machines Disks</h4>
+                        </a>
+                        <a href="certificates/azure-7.pdf" target="_blank" class="cert-item">
+                            <h4>Virtual Networks</h4>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="cert-category-content" id="aws">
+                    <div class="cert-grid">
+                        <a href="certificates/aws-1.pdf" target="_blank" class="cert-item">
+                            <h4>Amazon S3 Introduction</h4>
+                        </a>
+                        <a href="certificates/aws-2.pdf" target="_blank" class="cert-item">
+                            <h4>AWS Core Security</h4>
+                        </a>
+                        <a href="certificates/aws-3.pdf" target="_blank" class="cert-item">
+                            <h4>AWS Databases in Practice</h4>
+                        </a>
+                        <a href="certificates/aws-4.pdf" target="_blank" class="cert-item">
+                            <h4>Highly Available Web Apps</h4>
+                        </a>
+                        <a href="certificates/aws-5.pdf" target="_blank" class="cert-item">
+                            <h4>File Systems in Cloud</h4>
+                        </a>
+                        <a href="certificates/aws-6.pdf" target="_blank" class="cert-item">
+                            <h4>Auto-Healing & Scaling</h4>
+                        </a>
+                        <a href="certificates/aws-7.pdf" target="_blank" class="cert-item">
+                            <h4>AWS Networking</h4>
+                        </a>
+                        <a href="certificates/aws-8.pdf" target="_blank" class="cert-item">
+                            <h4>Connecting VPCs</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-wrapper">
+            <div class="contact-info-cards">
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <a href="mailto:hasini.rhm@gmail.com">hasini.rhm@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>118, Sisilasewana, Kelimune, Mahakeliya, Kurunegala</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/hasini-herath-rhm" target="_blank">Connect with me</a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </div>
+                    <div class="info-content">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/RHMhasini" target="_blank">RHMhasini</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="contact-form" action="https://formsubmit.co/hasini.rhm@gmail.com" method="POST">
+                
+                <input type="hidden" name="_subject" value="New message from Portfolio Website">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" style="display:none">
+
+                <div class="form-group">
+                    <label>Your Name *</label>
+                    <input type="text" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Email *</label>
+                    <input type="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Subject *</label>
+                    <input type="text" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Message *</label>
+                    <textarea name="message" rows="6" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    Send Message
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2026 Hasini Herath. Made with passion.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
