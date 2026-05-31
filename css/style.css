@@ -776,6 +776,12 @@ section {
     box-shadow: 0 10px 40px rgba(0, 229, 255, 0.25);
 }
 
+a.info-card {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .info-icon {
     width: 60px;
     height: 60px;
